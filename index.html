@@ -29,6 +29,16 @@
         border-radius: 50px;
         height: 50px;
         background-color: rgb(32, 88, 194);
+       
+    }
+    .class-for-btn2{
+        width: 200px;
+        border-radius: 50px;
+        height: 50px;
+    }
+    .img-class{
+        width: 500px;
+        height: 500px;
     }
  </style>
  
@@ -70,12 +80,24 @@
                     partnership with our clients is the only way to have a real <br>
                     impact on their business</p>
                     <br>
-                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <div class="d-grid gap-2 d-md-flex">
+
+                        <div class="col-md-4 position-relative">
+                           
+                            <div class="input-group has-validation">
+                              
+                              <input type="text" class="form-control class-for-btn2 opacity-50" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required placeholder="Name@company.com">
+                              <div class="invalid-tooltip">
+                                Please choose a unique and valid username.
+                              </div>
+                            </div>
+                          </div>
                         <button class="btn btn-primary me-md-2 class-for-btn" type="button">Try it free</button>
                         
                       </div>
+                
             </div>
-            <div class="col-md-6"></div>
+            <div class="col-md-6"><img src=".\images\hero image.jpg" alt="no pic" class="img-class"></div>
         </div>
       </section>
 
